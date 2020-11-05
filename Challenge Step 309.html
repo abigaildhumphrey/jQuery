@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <title>Basic HTML Template</title>
+        <script src="JS/main.js"></script>
+        <link rel="stylesheet" type="text/css" href=".css">
+    </head>
+
+
+    <body>
+
+        <h1>Heading</h1>
+        <p>Paragraph.</p>
+
+        <button onclick="numberlinks()">Try it</button>
+        <p id="test"></p> <!--Forgot to do this line initially do not forget to link the id--->
+        
+        <script>
+        function numberlinks() {
+          var x = document.links.length;
+          document.getElementById("test").innerHTML = x;
+        }
+        </script>
+            
+
+    </body>
+
+</html>
